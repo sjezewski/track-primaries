@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20160203010246) do
 
   create_table "elections", force: :cascade do |t|
     t.string   "state"
-    t.string   "type"
+    t.string   "kind"
     t.datetime "date"
   end
 
