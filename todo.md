@@ -9,6 +9,8 @@
 - IFTTT trigger integration
 - Create views per primary date (e.g. NH, super tuesday, etc)
 - Create overview of # of delegates per candidate
+- Active Admin (for creating new elections)
+- Slugs (for nice URLs by state name or date? incl helpers like 'today' or 'next' or 'last')
 - Howto setup IFTTT page
 
 Nice to have:
