@@ -1,0 +1,6 @@
+- Generate view for results of a single primary
+- Controller will make upstream request each time
+- Decouple and make watcher async / etc
+- Parameterize and make for each state
+- Create views per primary date (e.g. NH, super tuesday, etc)
+- Create overview of 
