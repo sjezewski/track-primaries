@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+require 'yaml'
+
+elections = YAML.load(File.read('./db/seeds.yaml'))
+
+elections.each do |e|
+  Election.create(e).save!
+end
